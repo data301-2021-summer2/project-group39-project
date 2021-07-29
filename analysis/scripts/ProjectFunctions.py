@@ -13,6 +13,7 @@ def CoachData(n):
        .groupby(['head_coach','team_id'])
        .sum()
        .reset_index()
+       .drop(['game_id'], axis = 'columns')
         )
     return df
 
