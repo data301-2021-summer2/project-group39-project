@@ -50,15 +50,16 @@ def gameclean(n):
     return df
 
 def ShiftsCleaning(adress1):
-    df4 = (
-        pd.read_csv(adress1)
-        .assign(shiftlength=lambda adress1:(adress1['shift_end']-adress1['shift_start']))  
-    df5 = (
-        df4[(df4['shiftlength']) > 0 ]
+        
+    df = (
+         pd.read_csv(adress1)
+        .assign(shiftlength=lambda adress1:(adress1['shift_end']-adress1['shift_start']))
+        )
+    df2 = (
+         df4[(df4['shiftlength']) > 0 ]
         .drop(['period','shift_start','shift_end'], axis='columns')
     )
-    
-    return df5
+    return df2
         
 def GroupingPlayer(df):
     df1 = (
