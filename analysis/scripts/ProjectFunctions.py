@@ -48,3 +48,30 @@ def gameclean(n):
         
     )
     return df
+
+def ShiftsCleaning(adress1):
+    df4 = (
+        pd.read_csv(adress1)
+        .assign(shiftlength=lambda adress1:(adress1['shift_end']-adress1['shift_start']))  
+    df5 = (
+        df4[(df4['shiftlength']) > 0 ]
+        .drop(['period','shift_start','shift_end'], axis='columns')
+    )
+    
+    return df5
+        
+def GroupingPlayer(df):
+    df1 = (
+        df.groupby('ID').mean()
+    )
+    return df1
+        
+def StatsCleaning(adress2):
+    df7 = (pd.read_csv(adress2)
+          .drop(['faceoffTaken', 'takeaways', 'giveaways','hits','blocked','faceOffWins','evenTimeOnIce','penaltyMinutes','powerPlayTimeOnIce','shortHandedTimeOnIce'],axis='columns')
+          .assign(Goals=lambda adress2:(adress2["goals"]+adress2["powerPlayGoals"]+adress2["shortHandedGoals"]))
+          .assign(Assists=lambda adress2:(adress2["assists"]+adress2["powerPlayAssists"]+adress2["shortHandedAssists"]))
+          .drop(['goals','assists','powerPlayGoals','powerPlayAssists','shortHandedGoals','shortHandedAssists','game_id','player_id'], axis='columns')
+          )
+    return df7
+
