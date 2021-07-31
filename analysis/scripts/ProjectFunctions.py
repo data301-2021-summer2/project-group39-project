@@ -56,7 +56,7 @@ def ShiftsCleaning(adress1):
         .assign(shiftlength=lambda adress1:(adress1['shift_end']-adress1['shift_start']))
         )
     df2 = (
-         df4[(df4['shiftlength']) > 0 ]
+         df[(df['shiftlength']) > 0 ]
         .drop(['period','shift_start','shift_end'], axis='columns')
     )
     return df2
