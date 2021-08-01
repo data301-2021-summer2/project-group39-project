@@ -8,7 +8,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Describe your topic/interest in about 150-200 words
 
-{Both of us have had an interest in hockey growing up so we figured this is perfect opportunity to explore the game on a deeper level. We will being using the game data and player data to examine which teams in the NHL have been the most dominate over the last couple of years statically. We also will be looking to answer personal questions of ideal shift length, shot opportunities vs goals to see if there is a correlation. Through these questions we'd like to determine of hockey can truly be predictied statistically.}
+{Both of us have had an interest in hockey growing up so we figured this is perfect opportunity to explore the game on a deeper level. We will being using the game data and player data to examine which teams in the NHL have been the most dominate over the last couple of years statically. We also will be looking to answer personal questions of ideal shift length for NHL Players compairing it with shots and goals achieved. Through these questions we'd like to determine of hockey can truly be predictied statistically.}
 
 ## Describe your dataset in about 150-200 words
 

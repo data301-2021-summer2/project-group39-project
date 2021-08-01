@@ -1,0 +1,2 @@
+# Analysis
+I will be using this folder to do an analysis on my data in order to answer my research question: Does shift length have any correlation to goals scored by NHL teams - is the 50 second shift really the most ideal?
