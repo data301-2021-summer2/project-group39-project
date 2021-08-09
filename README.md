@@ -18,7 +18,7 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 - Vanessa : I am in my 4th year of mechanical engineering and would like to greatly improve my lack of coding skills through this class
 
-- Keatin : Fourth year Electrical Engineering student with an interst in the semiconductor industry.
+- Keatin : Fourth year Electrical Engineering student with an interest in the semiconductor industry.
 
 
 ## References
