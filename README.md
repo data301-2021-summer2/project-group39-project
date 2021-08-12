@@ -21,6 +21,3 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 - Keatin : Fourth year Electrical Engineering student with an interest in the semiconductor industry.
 
 
-## References
-
-{Add your stuff here}
